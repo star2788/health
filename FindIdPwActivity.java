@@ -46,7 +46,7 @@ public class FindIdPwActivity extends AppCompatActivity {
     private String name, birth, phone;
     private String pw_name, pw_id,pw_email, RandomCode;
     boolean success = false;
-    private GMailSender gMailSender = new GMailSender("shm103187@gmail.com", "dmsel10704");
+    private GMailSender gMailSender = new GMailSender("운영측@gmail.com", "");
     private AES256Chiper aes256Chiper;
 
     @Override
